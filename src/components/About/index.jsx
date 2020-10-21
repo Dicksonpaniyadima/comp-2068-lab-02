@@ -1,13 +1,17 @@
 import React from 'react';
 import Header from '../shared/Header';
+import Para from '../shared/Para';
 
-const Home = () => {
+
+const About = () => {
   return (
     <>
-      {/* You need to use your shared header component... */}
-      {/* You need a paragraph describing a fun fact about you */}
+      <Header title="A fun fact about me.." />
+      <Para
+        text="I am a starbucks addict. I collected over 50 frappuccino bottles which i have stored in a shelf in my basement and still collecting."
+      />
     </>
   );
-}
- 
-export default Home;
+};
+
+export default About;
