@@ -1,11 +1,15 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
+import Styles from './styles';
 
 
 const Btn = ({label, link}) => {
 
     return(
-            <Button href={link}>{label}</Button>  
+        <Styles.Btn>
+         <Button href={link}>{label}</Button>
+        </Styles.Btn>
+              
     );   
 };
 
